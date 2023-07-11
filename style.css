@@ -1,0 +1,23 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.container {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 4fr;
+}
+
+.nav {
+    display: grid;
+    grid-template-rows: repeat(3, 2fr);
+    gap: 50px;
+}
+
+.nav > div {
+    /* border: solid; */
+}
+
+li {
+    list-style: none;
+}
